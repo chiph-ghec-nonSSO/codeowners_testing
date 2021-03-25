@@ -1,1 +1,1 @@
-# codeowners_testing
+This repository is just for testing CODEOWNERS behavior
