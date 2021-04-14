@@ -29,6 +29,13 @@
 # cloud-build service
 /app/services/cloud-build/ @eliDev
 
+# cloud-content-delivery service
+/app/services/cloud-content-delivery/ @maximecote57 @annajolly
+
+
+
+
+
 
 
 # game-growth service
