@@ -21,6 +21,8 @@
 # CORE
 /app/core/components/app-header/ @Unity-Technologies/unity-dashboard-team
 
+# SERVICES
+
 # analytics
 /app/services/analytics/ @Unity-Technologies/jetpac-frontend-team
 /app/packages/components/services/analytics/ @Unity-Technologies/jetpac-frontend-team
@@ -32,20 +34,15 @@
 # cloud-content-delivery service
 /app/services/cloud-content-delivery/ @maximecote57 @annajolly
 
-
+# cloud-save service
+/app/services/cloud-save/ @gordon.mcallister @sam.grant
 
 # vision-datamaker service
 /app/services/vision-datamaker/ @Unity-Technologies/ai-perception-services @RedTn
 
-
-
-
 # game-growth service
 /app/services/game-growth/ @rametta @mo-ayala @markmssd
 /app/services/admin/pages/game-growth/ @rametta @mo-ayala @markmssd
-
-
-
 
 # gametune service
 /app/services/gametune/ @reuterm @pavelselin
@@ -103,9 +100,5 @@
 
 # tools
 /tools/ @Unity-Technologies/unity-dashboard-team
-
-# cloud-save service
-/app/services/cloud-save/ @gordon.mcallister @sam.grant
-
 
 * @chipcooks
