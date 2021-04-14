@@ -33,6 +33,9 @@
 /app/services/cloud-content-delivery/ @maximecote57 @annajolly
 
 
+# cloud-save service
+/app/services/cloud-save/ @gordon.mcallister @sam.grant
+
 
 
 
