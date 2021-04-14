@@ -10,7 +10,31 @@
 # to the repository with `write` permissions. Unity developers can contribute to the repo by default but the CODEOWNERS
 # file will not tag members unless they are explicitly invited to the repository.
 
-# repo root files
+# gametune service
+/app/services/gametune/ @reuterm @pavelselin
+
+# liveops service
+/app/services/liveops/ @Unity-Technologies/jetpac-frontend-team
+/app/packages/store/entities/liveops-* @Unity-Technologies/jetpac-frontend-team
+
+# matchmaker service
+/app/services/matchmaker/ @ajdaniel
+
+# metered-billing service
+/app/services/metered-billing/ @JBooker10 @gushiguera
+
+# monetization service
+/app/services/monetization/ @hanw-unity
+
+# multiplay service
+/app/services/multiplay/ @ajdaniel @addisonbgross
+
+# relay service
+/app/services/relay/ @ajdaniel @addisonbgross
+
+# remote-config service
+/app/services/remote-config/ @Bevilacqua
+/app/packages/components/services/remote-config/ @Bevilacqua
 
 # campaigns service
 /app/services/campaigns/ @Bevilacqua
