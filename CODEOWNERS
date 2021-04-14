@@ -104,5 +104,8 @@
 # tools
 /tools/ @Unity-Technologies/unity-dashboard-team
 
+# cloud-save service
+/app/services/cloud-save/ @gordon.mcallister @sam.grant
+
 
 * @chipcooks
