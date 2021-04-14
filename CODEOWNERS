@@ -21,6 +21,25 @@
 # CORE
 /app/core/components/app-header/ @Unity-Technologies/unity-dashboard-team
 
+
+
+# cloud-build service
+/app/services/cloud-build/ @eliDev
+
+# cloud-content-delivery service
+/app/services/cloud-content-delivery/ @maximecote57 @annajolly
+
+# cloud-save service
+/app/services/cloud-save/ @gordon.mcallister @sam.grant
+
+# vision-datamaker service
+/app/services/vision-datamaker/ @Unity-Technologies/ai-perception-services @RedTn
+
+# game-growth service
+/app/services/game-growth/ @rametta @mo-ayala @markmssd
+/app/services/admin/pages/game-growth/ @rametta @mo-ayala @markmssd
+
+
 # gametune service
 /app/services/gametune/ @reuterm @pavelselin
 
