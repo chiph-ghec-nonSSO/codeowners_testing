@@ -34,6 +34,9 @@
 # cloud-content-delivery service
 /app/services/cloud-content-delivery/ @maximecote57 @annajolly
 
+# cloud-save service
+/app/services/cloud-save/ @gordonmcallister @samgrant
+
 # vision-datamaker service
 /app/services/vision-datamaker/ @Unity-Technologies/ai-perception-services @RedTn
 
