@@ -12,63 +12,36 @@
 
 # repo root files
 
-/* @Unity-Technologies/unity-dashboard-team
-/yarn.lock
-/package.json
+# campaigns service
+/app/services/campaigns/ @Bevilacqua
 
-# github
-/.github/ @Unity-Technologies/unity-dashboard-team
+# settings service
+/app/services/settings/ @Unity-Technologies/unity-dashboard-team @services-foundation-pod
 
-# CORE
-/app/core/components/app-header/ @Unity-Technologies/unity-dashboard-team
+# unity-simulation service
+/app/services/unity-simulation/ @Unity-Technologies/ai-perception-services @RedTn @cherie-unity
 
-# SERVICES
+# docs
+/docs/ @Unity-Technologies/unity-dashboard-team
 
-# analytics
-/app/services/analytics/ @Unity-Technologies/jetpac-frontend-team
-/app/packages/components/services/analytics/ @Unity-Technologies/jetpac-frontend-team
-/app/packages/store/entities/analytics-* @Unity-Technologies/jetpac-frontend-team
+# helm
+/helm/ @Unity-Technologies/unity-dashboard-team
 
-# cloud-build service
-/app/services/cloud-build/ @eliDev
+# public
+/public/ @Unity-Technologies/unity-dashboard-team
 
-# cloud-content-delivery service
-/app/services/cloud-content-delivery/ @maximecote57 @annajolly
+# scripts
+/scripts/ @Unity-Technologies/unity-dashboard-team
 
-# cloud-save service
-/app/services/cloud-save/ @gordon.mcallister @sam.grant
+# server
+/server/ @Unity-Technologies/unity-dashboard-team
 
-# vision-datamaker service
-/app/services/vision-datamaker/ @Unity-Technologies/ai-perception-services @RedTn
+# test
+/test/ @Unity-Technologies/unity-dashboard-team
+/test/entities/
 
-# game-growth service
-/app/services/game-growth/ @rametta @mo-ayala @markmssd
-/app/services/admin/pages/game-growth/ @rametta @mo-ayala @markmssd
+# tools
+/tools/ @Unity-Technologies/unity-dashboard-team
 
-# gametune service
-/app/services/gametune/ @reuterm @pavelselin
-
-# liveops service
-/app/services/liveops/ @Unity-Technologies/jetpac-frontend-team
-/app/packages/store/entities/liveops-* @Unity-Technologies/jetpac-frontend-team
-
-# matchmaker service
-/app/services/matchmaker/ @ajdaniel
-
-# metered-billing service
-/app/services/metered-billing/ @JBooker10 @gushiguera
-
-# monetization service
-/app/services/monetization/ @hanw-unity
-
-# multiplay service
-/app/services/multiplay/ @ajdaniel @addisonbgross
-
-# relay service
-/app/services/relay/ @ajdaniel @addisonbgross
-
-# remote-config service
-/app/services/remote-config/ @Bevilacqua
-/app/packages/components/services/remote-config/ @Bevilacqua
 
 * @chipcooks
