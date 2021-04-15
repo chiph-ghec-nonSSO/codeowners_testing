@@ -1,104 +1,58 @@
-# This is a comment.
-# Each line is a file pattern followed by one or more owners.
-# https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+# See for instructions on this file https://help.github.com/articles/about-codeowners/
 
-# if you are adding a service be sure to add a / to the end so all subdirectories and files are included
-# Last pattern wins so any negative cases can be put with no owners on its own line after positive cases to not trigger auto-tagging
-# Multiple owners can be set, i.e. /app/services/settings/ @Unity-Technologies/unity-dashboard-team @celim307
+# By default Microsoft owns the entire repo
+# Unless overridden later
 
-# Be sure to ask in `#devs-unity-dashboard` to invite your github handle (and your team's handle if applicable)
-# to the repository with `write` permissions. Unity developers can contribute to the repo by default but the CODEOWNERS
-# file will not tag members unless they are explicitly invited to the repository.
-
-# repo root files
-/* @Unity-Technologies/unity-dashboard-team
-/yarn.lock
-/package.json
-
-# github
-/.github/ @Unity-Technologies/unity-dashboard-team
-
-# CORE
-/app/core/components/app-header/ @Unity-Technologies/unity-dashboard-team
-
-# SERVICES
-
-# analytics
-/app/services/analytics/ @Unity-Technologies/jetpac-frontend-team
-/app/packages/components/services/analytics/ @Unity-Technologies/jetpac-frontend-team
-/app/packages/store/entities/analytics-* @Unity-Technologies/jetpac-frontend-team
-
-# cloud-build service
-/app/services/cloud-build/ @eliDev
-
-# cloud-content-delivery service
-/app/services/cloud-content-delivery/ @maximecote57 @annajolly
-
-# cloud-save service
-/app/services/cloud-save/ @gordonmcallister @samgrant
-
-# vision-datamaker service
-/app/services/vision-datamaker/ @Unity-Technologies/ai-perception-services @RedTn
-
-# game-growth service
-/app/services/game-growth/ @rametta @mo-ayala @markmssd
-/app/services/admin/pages/game-growth/ @rametta @mo-ayala @markmssd
-
-# gametune service
-/app/services/gametune/ @reuterm @pavelselin
-
-# liveops service
-/app/services/liveops/ @Unity-Technologies/jetpac-frontend-team
-/app/packages/store/entities/liveops-* @Unity-Technologies/jetpac-frontend-team
-
-# matchmaker service
-/app/services/matchmaker/ @ajdaniel
-
-# metered-billing service
-/app/services/metered-billing/ @JBooker10 @gushiguera
-
-# monetization service
-/app/services/monetization/ @hanw-unity
-
-# multiplay service
-/app/services/multiplay/ @ajdaniel @addisonbgross
-
-# relay service
-/app/services/relay/ @ajdaniel @addisonbgross
-
-# remote-config service
-/app/services/remote-config/ @Bevilacqua
-/app/packages/components/services/remote-config/ @Bevilacqua
-
-# campaigns service
-/app/services/campaigns/ @Bevilacqua
-
-# settings service
-/app/services/settings/ @Unity-Technologies/unity-dashboard-team @services-foundation-pod
-
-# unity-simulation service
-/app/services/unity-simulation/ @Unity-Technologies/ai-perception-services @RedTn @cherie-unity
-
-# docs
-/docs/ @Unity-Technologies/unity-dashboard-team
-
-# helm
-/helm/ @Unity-Technologies/unity-dashboard-team
-
-# public
-/public/ @Unity-Technologies/unity-dashboard-team
-
-# scripts
-/scripts/ @Unity-Technologies/unity-dashboard-team
-
-# server
-/server/ @Unity-Technologies/unity-dashboard-team
-
-# test
-/test/ @Unity-Technologies/unity-dashboard-team
-/test/entities/
-
-# tools
-/tools/ @Unity-Technologies/unity-dashboard-team
+# Speicific owner for Certified Connectors
+/certified-connectors/Aquaforest\ PDF\ Connector/ @Aquaforest
+/certified-connectors/CloudAppSecurity/ @robrams
+/certified-connectors/Cloudmersive\ Data\ Validation/ @Cloudmersive
+/certified-connectors/Cloudmersive\ Document\ Conversion/ @Cloudmersive
+/certified-connectors/Cloudmersive\ Image\ Processing/ @Cloudmersive
+/certified-connectors/Cloudmersive\ PDF/ @Cloudmersive
+/certified-connectors/Cloudmersive\ Virus\ Scan/ @Cloudmersive
+/certified-connectors/CompanyConnect/ @sschutten
+/certified-connectors/D7SMS/ @d7networks
+/certified-connectors/DBF2XML/ @yekhoKatyn
+/certified-connectors/Data8/ @mattybeard
+/certified-connectors/ElfsquadProductConfigurator/ @johannesheesterman
+/certified-connectors/Encodian/ @Encodian
+/certified-connectors/FireText/ @dp-firetext
+/certified-connectors/HotProfile/ @masuyama-hammock
+/certified-connectors/JungleMail365/ @EnovaPoint-Lewis
+/certified-connectors/KnowledgeLakeRPA/ @SteveCurran
+/certified-connectors/LeadDesk/ @Lokenstein
+/certified-connectors/Mitto/ @mittork
+/certified-connectors/ModuleQ/ @tom-mq
+/certified-connectors/Mtarget\ SMS/ @devsmsMTarget
+/certified-connectors/PartnerCenterReferrals/ @didalal
+/certified-connectors/Plumsail\ Documents/ @RFlipper
+/certified-connectors/Plumsail\ Forms/ @RFlipper
+/certified-connectors/Plumsail\ HelpDesk/ @RFlipper
+/certified-connectors/Plumsail\ SP/ @RFlipper
+/certified-connectors/Pushcut/ @sliemeobn
+/certified-connectors/Rencore/ @waldekmastykarz
+/certified-connectors/Rencore\ Governance/ @waldekmastykarz
+/certified-connectors/Robolytix/ @ondrejfiala
+/certified-connectors/Scrive\ eSign/ @MarcusNilssonGithub
+/certified-connectors/Serverless360/ @arunprabhu-kovai
+/certified-connectors/ShareEffect/ @Rens-Braspenning
+/certified-connectors/ShortURL/ @cirrussoft
+/certified-connectors/SignRequest/ @michi88
+/certified-connectors/Slascone/ @its-just-jo
+/certified-connectors/Smarp/ @pininsmarp
+/certified-connectors/Stormboard/ @mdbollman
+/certified-connectors/Tallyfy/ @EricHusa
+/certified-connectors/Telephony-Xtended-Service/ @alainmenag
+/certified-connectors/Way\ We\ Do/ @danspam
+/certified-connectors/WebMerge/ @jeremyjclarke
+/certified-connectors/Witivio/ @NicolasHumann
+/certified-connectors/Yeelight/ @yusureabc
+/certified-connectors/ahead/ @tjkb
+/certified-connectors/easyvistaselfhelp/ @cedric-martin
+/certified-connectors/emfluencemp/ @ryandeba
+/certified-connectors/envoy/ @aasimniz95
+/certified-connectors/exghts/ @exghts
+/certified-connectors/gofileroom/ @calvinleong
 
 * @chipcooks
